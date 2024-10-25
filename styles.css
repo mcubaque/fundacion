@@ -277,10 +277,15 @@ footer {
     background-color: #003366;
     color: white;
     text-align: center;
-    padding: 15px 10px; /* Reduce el padding para dispositivos pequeños */
+    padding: 15px 10px;
     width: 100%;
     box-sizing: border-box;
+    display: flex; /* Utiliza Flexbox para alinear el contenido */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    flex-direction: column; /* Asegura que el contenido esté en columna si hay múltiples elementos */
 }
+
 
 /* Ajuste para pantallas pequeñas */
 @media (max-width: 768px) {
@@ -289,3 +294,4 @@ footer {
         padding: 20px 10px; /* Ajusta el padding */
     }
 }
+

@@ -19,6 +19,15 @@ body {
     color: #333;
 }
 
+p {
+    text-align: justify;
+}
+
+ul{
+    text-align: justify;
+}
+
+
 section#imagen-principal {
     text-align: center;
     margin-top: 0;

@@ -1,0 +1,222 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #006699;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+section#imagen-principal {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 40px; /* Espacio entre la imagen y la sección siguiente */
+}
+
+.imagen-superior {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 0; /* Asegura que no haya margen superior */
+    padding-top: 0; /* Elimina cualquier padding superior */
+}
+
+.imagen-vision {
+    width: 100%;
+    max-width: 500px; /* Reduce el ancho máximo para ocupar menos espacio */
+    height: auto;
+    display: block;
+    margin: 10px auto; /* Reduce el margen superior e inferior */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section#vision {
+    padding: 20px 20px; /* Reduce el padding de la sección si es necesario */
+}
+
+.imagen-que-hacemos {
+    width: 100%;
+    max-width: 600px; /* Limita el ancho máximo para ocupar menos espacio */
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Centra la imagen y añade un pequeño margen superior e inferior */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imagen-mision {
+    width: 100%;
+    max-width: 500px; /* Limita el ancho máximo para ocupar menos espacio */
+    height: auto;
+    display: block;
+    margin: 15px auto; /* Centra la imagen y añade un margen superior e inferior */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imagen-valores {
+    width: 100%;
+    max-width: 600px; /* Limita el ancho máximo para ocupar menos espacio */
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Centra la imagen y añade un margen superior e inferior */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.logo h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section#inicio {
+    background: url('background.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+section#inicio h2 {
+    font-size: 2.5rem;
+}
+
+ul {
+    list-style-type: square;
+}
+
+section#que-hacemos {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 100px; /* Aumenta la separación con el footer */
+}
+
+
+/* Sección Ayúdanos */
+section#ayudanos {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 100px;
+}
+
+section#ayudanos h2 {
+    text-align: center;
+    color: #006699;
+}
+
+#donation-form {
+    display: grid;
+    grid-gap: 20px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+legend {
+    font-weight: bold;
+    color: #333;
+    padding: 0 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #006699;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #004d66;
+}
+
+
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-top: 20px;
+}
